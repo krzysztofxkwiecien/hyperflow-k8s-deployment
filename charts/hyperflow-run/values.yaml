@@ -1,11 +1,11 @@
 # Hyperflow engine image
-hf-engine-image: &hf-engine-image doogfood/hyperflow:1.0.0
+hf-engine-image: &hf-engine-image aghkkwiecien/hyperflow:1.0.0
 
 # Change these to run a different workflow
-wf-worker-image: &wf-worker-image doogfood/worker:1.0.0
+wf-worker-image: &wf-worker-image aghkkwiecien/worker:1.0.0
 
 # Set this image to workflow input data
-wf-input-data-image: &wf-data-image doogfood/data:1.0.0
+wf-input-data-image: &wf-data-image aghkkwiecien/data:1.0.0
 wf-input-data-from-docker: &input-from-docker true
 
 

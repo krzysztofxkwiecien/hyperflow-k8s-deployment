@@ -1,62 +1,62 @@
 tasks:
   - taskName: mProjectPP
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"
     memoryLimit: "1Gi"
 
   - taskName: mDiffFit
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"
     memoryLimit: "1Gi"
 
   - taskName: mConcatFit
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"
     memoryLimit: "1Gi"
 
   - taskName: mBgModel
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"
     memoryLimit: "1Gi"
 
   - taskName: mBackground
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"
     memoryLimit: "1Gi"
 
   - taskName: mImgtbl
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"
     memoryLimit: "1Gi"
 
   - taskName: mAdd
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"
     memoryLimit: "1Gi"
 
   - taskName: mShrink
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"
     memoryLimit: "1Gi"
 
   - taskName: mJPEG
-    workerImage: "doogfood/worker:1.0.0"
+    workerImage: "aghkkwiecien/worker:1.0.0"
     cpuRequest: "100m"
     memoryRequest: "100Mi"
     cpuLimit: "1"

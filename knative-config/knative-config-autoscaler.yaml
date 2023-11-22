@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-autoscaler
+  namespace: knative-serving
+data:
+  stable-window: "6s"
+  max-scale-down-rate: "1000.0"
+  scale-to-zero-grace-period: "1s"
+  allow-zero-initial-scale: "true"
+  initial-scale: "0"
+  

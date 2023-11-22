@@ -1,4 +1,19 @@
 # HyperFlow deployment on Kubernetes
+
+## Knative setup
+
+To set up a cluster with knative and run a workflow
+- `./quick-setup.sh`
+- `./knative-setup.sh`
+- `helm install hf-knative charts/knative`
+- Once all pods are up and running or completed, you can manually run the workflow as follows:
+```
+kubectl exec -it <hyperflow-engine-pod> sh
+cd /work_dir
+HF_VAR_function=httpCommand hflow run .
+```
+
+
 ## Getting started - run a sample workflow
 To quickly run a small [Montage workflow](https://github.com/hyperflow-wms/montage2-workflow) on your local machine using Hyperflow, do the following steps:
 - Install [kind](https://kind.sigs.k8s.io/) and [Helm](https://helm.sh/)

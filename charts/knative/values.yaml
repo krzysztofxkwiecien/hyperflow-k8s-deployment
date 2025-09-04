@@ -1,0 +1,63 @@
+tasks:
+  - taskName: mProjectPP
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"
+
+  - taskName: mDiffFit
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"
+
+  - taskName: mConcatFit
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"
+
+  - taskName: mBgModel
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"
+
+  - taskName: mBackground
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"
+
+  - taskName: mImgtbl
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"
+
+  - taskName: mAdd
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"
+
+  - taskName: mShrink
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"
+
+  - taskName: mJPEG
+    workerImage: "aghkkwiecien/worker:1.0.0"
+    cpuRequest: "100m"
+    memoryRequest: "100Mi"
+    cpuLimit: "1"
+    memoryLimit: "1Gi"

@@ -1,0 +1,6 @@
+apiVersion: v2
+name: knative
+description: Knative Serving definitions for workflow tasks
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
